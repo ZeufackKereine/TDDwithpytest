@@ -1,0 +1,63 @@
+Using pip 24.3.1 from C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\pip (python 3.13)
+  Link requires a different Python (3.13.1 not in: '<3.13,>=3.9'): https://files.pythonhosted.org/packages/69/62/f3a029a136b1862fa097b0801e901015de1162803d65f872533580541f78/thinc-8.3.3.tar.gz (from https://pypi.org/simple/thinc/) (requires-python:<3.13,>=3.9)
+Collecting thinc
+  Downloading thinc-9.1.1.tar.gz (191 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting blis<1.1.0,>=1.0.0 (from thinc)
+  Obtaining dependency information for blis<1.1.0,>=1.0.0 from https://files.pythonhosted.org/packages/ea/2b/9015204e74269347993f5d2de2feb24caf7afb2c685c4c3b478ccc30a3e1/blis-1.0.2-cp313-cp313-win_amd64.whl.metadata
+  Using cached blis-1.0.2-cp313-cp313-win_amd64.whl.metadata (7.8 kB)
+Collecting murmurhash<1.1.0,>=1.0.2 (from thinc)
+  Obtaining dependency information for murmurhash<1.1.0,>=1.0.2 from https://files.pythonhosted.org/packages/2b/f5/5ce095d7edceea9e1a5c2c7000b33aa29e2bbc983c61eaa6e022a733c025/murmurhash-1.0.11-cp313-cp313-win_amd64.whl.metadata
+  Using cached murmurhash-1.0.11-cp313-cp313-win_amd64.whl.metadata (2.0 kB)
+Collecting cymem<2.1.0,>=2.0.2 (from thinc)
+  Obtaining dependency information for cymem<2.1.0,>=2.0.2 from https://files.pythonhosted.org/packages/38/f8/a8c04468929043acf8048cce72e438412c7c949f6983b6dc14209e4371ec/cymem-2.0.10-cp313-cp313-win_amd64.whl.metadata
+  Using cached cymem-2.0.10-cp313-cp313-win_amd64.whl.metadata (8.6 kB)
+Collecting preshed<3.1.0,>=3.0.2 (from thinc)
+  Using cached preshed-3.0.9-cp313-cp313-win_amd64.whl
+Collecting wasabi<1.2.0,>=0.8.1 (from thinc)
+  Obtaining dependency information for wasabi<1.2.0,>=0.8.1 from https://files.pythonhosted.org/packages/06/7c/34330a89da55610daa5f245ddce5aab81244321101614751e7537f125133/wasabi-1.1.3-py3-none-any.whl.metadata
+  Downloading wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+Collecting srsly<3.0.0,>=2.4.0 (from thinc)
+  Obtaining dependency information for srsly<3.0.0,>=2.4.0 from https://files.pythonhosted.org/packages/23/51/b448c7ffb15bf9e1af0369bdf3e00e87e893a9ea7fca7ea3f020af5a105a/srsly-2.5.0-cp313-cp313-win_amd64.whl.metadata
+  Downloading srsly-2.5.0-cp313-cp313-win_amd64.whl.metadata (20 kB)
+Collecting catalogue<2.1.0,>=2.0.4 (from thinc)
+  Obtaining dependency information for catalogue<2.1.0,>=2.0.4 from https://files.pythonhosted.org/packages/9e/96/d32b941a501ab566a16358d68b6eb4e4acc373fab3c3c4d7d9e649f7b4bb/catalogue-2.0.10-py3-none-any.whl.metadata
+  Downloading catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+Collecting confection<1.0.0,>=0.0.1 (from thinc)
+  Obtaining dependency information for confection<1.0.0,>=0.0.1 from https://files.pythonhosted.org/packages/0c/00/3106b1854b45bd0474ced037dfe6b73b90fe68a68968cef47c23de3d43d2/confection-0.1.5-py3-none-any.whl.metadata
+  Downloading confection-0.1.5-py3-none-any.whl.metadata (19 kB)
+Requirement already satisfied: setuptools in c:\users\hp\appdata\local\programs\python\python313\lib\site-packages (from thinc) (75.6.0)
+Requirement already satisfied: numpy<3.0.0,>=2.0.0 in c:\users\hp\appdata\local\programs\python\python313\lib\site-packages (from thinc) (2.1.3)
+Collecting pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4 (from thinc)
+  Obtaining dependency information for pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4 from https://files.pythonhosted.org/packages/62/51/72c18c55cf2f46ff4f91ebcc8f75aa30f7305f3d726be3f4ebffb4ae972b/pydantic-2.10.3-py3-none-any.whl.metadata
+  Downloading pydantic-2.10.3-py3-none-any.whl.metadata (172 kB)
+Requirement already satisfied: packaging>=20.0 in c:\users\hp\appdata\local\programs\python\python313\lib\site-packages (from thinc) (24.2)
+Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc)
+  Obtaining dependency information for annotated-types>=0.6.0 from https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl.metadata
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.27.1 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc)
+  Obtaining dependency information for pydantic-core==2.27.1 from https://files.pythonhosted.org/packages/83/84/5ab82a9ee2538ac95a66e51f6838d6aba6e0a03a42aa185ad2fe404a4e8f/pydantic_core-2.27.1-cp313-none-win_amd64.whl.metadata
+  Downloading pydantic_core-2.27.1-cp313-none-win_amd64.whl.metadata (6.7 kB)
+Requirement already satisfied: typing-extensions>=4.12.2 in c:\users\hp\appdata\local\programs\python\python313\lib\site-packages (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc) (4.12.2)
+Requirement already satisfied: colorama>=0.4.6 in c:\users\hp\appdata\local\programs\python\python313\lib\site-packages (from wasabi<1.2.0,>=0.8.1->thinc) (0.4.6)
+Using cached blis-1.0.2-cp313-cp313-win_amd64.whl (6.4 MB)
+Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+Downloading confection-0.1.5-py3-none-any.whl (35 kB)
+Using cached cymem-2.0.10-cp313-cp313-win_amd64.whl (39 kB)
+Using cached murmurhash-1.0.11-cp313-cp313-win_amd64.whl (24 kB)
+Downloading pydantic-2.10.3-py3-none-any.whl (456 kB)
+Downloading pydantic_core-2.27.1-cp313-none-win_amd64.whl (2.0 MB)
+   ---------------------------------------- 2.0/2.0 MB 724.3 kB/s eta 0:00:00
+Downloading srsly-2.5.0-cp313-cp313-win_amd64.whl (630 kB)
+   -------------------------------------- 630.6/630.6 kB 755.9 kB/s eta 0:00:00
+Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Building wheels for collected packages: thinc
+  Building wheel for thinc (pyproject.toml): started
+  Building wheel for thinc (pyproject.toml): finished with status 'error'
+Failed to build thinc
